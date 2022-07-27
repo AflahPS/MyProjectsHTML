@@ -54,8 +54,8 @@ body{
     width: 88px;
     color: white;
     background-color: red;
-    border-radius: 8px;
-    border: 1px solid red;
+    border-radius: 3px;
+    border: none;
     text-align: center;
     font-size: 16px;
     font-weight: 100;
@@ -77,12 +77,48 @@ body{
     text-align: center;
     margin-top: 107px;
     margin-left: 437px;
-
-}
-h1,h2,h3{
-    color: white ;
-    margin: 0;
+    margin-bottom: 18px;
 }
 select option{
     background: grey;
+}
+h1{
+    color: white ;
+    margin: 0;
+    font-size: 56px;
+}
+h2{
+    color: white ;
+    margin: 0;
+    font-size: 28px;
+    font-weight: 100;
+}
+h3{
+    color: white ;
+    margin: 0;
+    font-weight: 100;
+}
+.sign-div{
+    float: left;
+    text-align: center;
+    margin-left: 467px;
+}
+.sign-email-div{
+    margin-left: 200px;
+
+}
+.sign-email{
+    height: 48px;
+    width: 350px;
+}
+.get-start{
+    float: left;
+}
+.gs-button{
+    height: 54px;
+    width: 176px;
+    font-size: 19px;
+    color: white;
+    background-color: red;
+    border: none;
 }
