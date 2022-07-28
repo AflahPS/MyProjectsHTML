@@ -67,6 +67,7 @@ body {
     text-align: center;
     font-size: 16px;
     font-weight: 100;
+    cursor: pointer;
 }
 
 .lang-li {
@@ -122,6 +123,7 @@ h3 {
 .sign-email {
     height: 48px;
     width: 350px;
+    font-size: 18px;
 }
 
 .get-start {
@@ -135,4 +137,5 @@ h3 {
     color: white;
     background-color: red;
     border: none;
+    cursor: pointer;
 }
