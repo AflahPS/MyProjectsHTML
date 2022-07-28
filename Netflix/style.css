@@ -1,15 +1,17 @@
-body{
+body {
     margin: 0%;
-    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
-.main-grad{
+
+.main-grad {
     height: 670px;
     width: 1364px;
     float: left;
-    background: rgba(0,0,0,.4);
-    background-image: linear-gradient(0deg, rgba(0,0,0,.8), transparent,rgba(0,0,0,.8));
+    background: rgba(0, 0, 0, .4);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, .8), transparent, rgba(0, 0, 0, .8));
 }
-.main-image{
+
+.main-image {
     height: 670px;
     width: 1364px;
     float: left;
@@ -18,38 +20,44 @@ body{
     background-repeat: no-repeat;
 
 }
-.header{
+
+.header {
     height: 100px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0);
     float: left;
 }
-.logo{
-    height: 80px ;
+
+.logo {
+    height: 80px;
     width: 170px;
-    float: left ;
+    float: left;
 }
-.logo-img{
+
+.logo-img {
     height: 112px;
     width: fit-content;
     margin-left: 31px;
 }
-.sign-button{    
+
+.sign-button {
     height: 40px;
     width: 113px;
     float: right;
     margin-right: 50px;
     margin-top: 29px;
 }
-.lang-list{
-    
+
+.lang-list {
+
     height: 40px;
     width: 113px;
     float: right;
     margin-top: 29px;
 
 }
-.sign-in{
+
+.sign-in {
     height: 35px;
     width: 88px;
     color: white;
@@ -60,7 +68,8 @@ body{
     font-size: 16px;
     font-weight: 100;
 }
-.lang-li{
+
+.lang-li {
     height: 35px;
     width: 88px;
     background-color: transparent;
@@ -72,49 +81,54 @@ body{
     border-width: 1.5px;
     border-color: white;
 }
-.mid-content{
+
+.mid-content {
     float: left;
     text-align: center;
     margin-top: 107px;
     margin-left: 437px;
     margin-bottom: 18px;
 }
-select option{
+
+select option {
     background: grey;
 }
-h1{
-    color: white ;
+
+h1 {
+    color: white;
     margin: 0;
     font-size: 56px;
 }
-h2{
-    color: white ;
+
+h2 {
+    color: white;
     margin: 0;
     font-size: 28px;
     font-weight: 100;
 }
-h3{
-    color: white ;
+
+h3 {
+    color: white;
     margin: 0;
     font-weight: 100;
 }
-.sign-div{
+
+.sign-div {
     float: left;
     text-align: center;
     margin-left: 467px;
 }
-.sign-email-div{
-    margin-left: 200px;
 
-}
-.sign-email{
+.sign-email {
     height: 48px;
     width: 350px;
 }
-.get-start{
+
+.get-start {
     float: left;
 }
-.gs-button{
+
+.gs-button {
     height: 54px;
     width: 176px;
     font-size: 19px;
