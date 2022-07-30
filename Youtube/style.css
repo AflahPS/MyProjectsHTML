@@ -32,6 +32,7 @@ body{
     background-color: rgb(48, 33, 33);
     margin: 0;
     float: left;
+    overflow-y: scroll;
 }
 .content{
     width: 84.7%;
@@ -72,7 +73,7 @@ body{
     
 }
 .left-container{
-    width: 100%;
+    width: 99%;
     height: fit-content;
     min-height: 47px;
     border-bottom:1px solid #bdceb6;
