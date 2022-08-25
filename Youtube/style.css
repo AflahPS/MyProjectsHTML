@@ -72,6 +72,7 @@ body{
     border-radius: 14px;
     border: 0 solid;
     font-size: 18px;
+    cursor: pointer;
     
 }
 .left-container{
@@ -91,6 +92,7 @@ body{
     align-items: center;
     align-content: center;
     justify-content: center;
+    cursor: pointer;
 
 }
 .left-row-icon{
