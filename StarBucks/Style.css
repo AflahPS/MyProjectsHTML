@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+}
+
+header {
+}
+
+.top-line {
+  height: 10px;
+  width: 100%;
+  background-color: rgba(0, 99, 65, 1);
+}
+
+.logo {
+  height: 62px;
+  margin: 20px 38px;
+}
+
+.find-store {
+  float: right;
+  border: 0;
+  background-color: transparent;
+  margin: 15px 30px;
+  color: #5b5959;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.find-store img {
+  height: 27px;
+}
+
+.find-store p {
+  font-size: 15px;
+}
+
+nav {
+  display: flex;
+  margin: 0px 15px;
+  margin-top: 13px;
+  margin-bottom: 8px;
+  justify-content: space-evenly;
+}
+.nav-button {
+  font-size: 13px;
+  font-weight: 400;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  color: #242221;
+}
+article div {
+  height: 560px;
+  background-position: top center;
+}
+.ctr1 {
+  background-image: url(ctr1.jpg);
+}
+.ctr2 {
+  background-image: url(ctr2.jpg);
+}
+.ctr3 {
+  background-image: url(ctr3.jpg);
+}
+.ctr4 {
+  background-image: url(ctr4.png);
+}
+.ctr5 {
+  background-image: url(ctr5.png);
+}
+.ctr6 {
+  background-image: url(ctr6.jpg);
+}
+.ctr7, .ctr8 {
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* .ctr7 .img,
+.ctr8 .img {
+  height: auto;
+  display: inline-block; */
+/* } */
+.ctr7 .text,
+.ctr8 .text {
+  height: auto;
+  display: inline-block;
+}
+.footer-top{
+  background-color:  #f0f0f0;
+}
+.footer-top div{
+  display: inline-block;
+
+}
