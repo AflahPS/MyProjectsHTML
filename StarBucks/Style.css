@@ -1,9 +1,16 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   font-family: Lato, Helvetica, Arial, sans-serif;
 }
 
 header {
+  max-width: 1360px;
 }
 
 .top-line {
@@ -15,6 +22,7 @@ header {
 .logo {
   height: 62px;
   margin: 20px 38px;
+  cursor: pointer;
 }
 
 .find-store {
@@ -27,6 +35,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  cursor: pointer;
 }
 
 .find-store img {
@@ -45,16 +54,18 @@ nav {
   justify-content: space-evenly;
 }
 .nav-button {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 400;
-  border: 0;
+  letter-spacing: 1.5px;
+  border: 0px;
   background-color: transparent;
   cursor: pointer;
-  color: #242221;
+  color: rgb(36, 34, 33);
 }
 article div {
   height: 560px;
   background-position: top center;
+  background-repeat: no-repeat;
 }
 .ctr1 {
   background-image: url(ctr1.jpg);
@@ -70,30 +81,64 @@ article div {
 }
 .ctr5 {
   background-image: url(ctr5.png);
+  cursor: pointer;
 }
 .ctr6 {
   background-image: url(ctr6.jpg);
+  cursor: pointer;
 }
-.ctr7, .ctr8 {
+.ctr7,
+.ctr8 {
+  margin-top: 20px;
   height: 500px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-/* .ctr7 .img,
-.ctr8 .img {
-  height: auto;
-  display: inline-block; */
-/* } */
 .ctr7 .text,
 .ctr8 .text {
   height: auto;
   display: inline-block;
 }
-.footer-top{
-  background-color:  #f0f0f0;
+.ctr8{
+  margin-bottom: 35px;
 }
-.footer-top div{
-  display: inline-block;
+.ctr7 h1,
+.ctr8 h1 {
+  margin-bottom: 21px;
+}
 
+.footer-top {
+  padding-left: 33px;
+  background-color: #f0f0f0;
+}
+.footer-top div {
+  display: inline-block;
+  margin: 0 10px;
+
+  
+}
+.footer-top img{
+  height: 30px;
+ cursor: pointer;
+}
+.footer-content{
+  margin-top: 111px;
+}
+.block1, .block2, .block3{
+  display: inline-block;
+  width: 220px;
+  height: auto;
+  text-align: center;
+}
+.footer-content a{
+  margin: 50px;
+}
+.footer-content a:link, a:visited{
+  color: #3d3935;
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer-content a:hover, a:active{
+  
 }
